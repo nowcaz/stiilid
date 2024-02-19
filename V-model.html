@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waterfall Model</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #007bff;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>V-Model</h1>
+    <p>V-mudelit tuntakse ka kui kinnitamise ja valideerimise mudelit. Selles peab iga tarkvaraarenduse elutsükli faas lõpule jõudma enne järgmise faasi algust. See järgib järjestikust disainiprotsessi, mis sarnaneb Veejuga mudeliga. Seadme testimine on planeeritud paralleelselt vastava arendusetapiga.</p>
+    <img src = "images/V-model.png">
+    <p>Verifitseerimine: See hõlmab staatilise analüüsi meetodit (ülevaade), mis viiakse läbi koodi käivitamata. See on toote arendusprotsessi hindamise protsess, et teha kindlaks, kas spetsifitseeritud nõuded vastavad.</p>
+    <p>Valideerimine: See hõlmab dünaamilise analüüsi meetodit (funktsionaalne, mittefunktsionaalne), mille käigus testitakse koodi käivitades. Valideerimine on protsess, mille käigus klassifitseeritakse tarkvara pärast arendusprotsessi lõpetamist, et teha kindlaks, kas tarkvara vastab klientide ootustele ja nõuetele.</p>
+    <ul>
+        <li>Seega sisaldab V-mudel ühel pool Verifitseerimise faase ja teisel pool Valideerimise faase. Verifitseerimise ja Valideerimise protsess on ühendatud koodimisfaasiga V-kujuliselt. Seetõttu tuntakse seda kui V-mudelit.</li>
+    </ul>
+
+    <p>V-mudeli Verifitseerimise faasi erinevad etapid:</p>
+    <ul>
+        <li>Äri nõuete analüüs: See on esimene samm, kus toote nõuded mõistetakse kliendi poolelt. Selles faasis on üksikasjalik suhtlus klientide ootuste ja täpsete nõuete mõistmiseks.</li>
+        <li>Süsteemi disain: Selles etapis analüüsivad süsteemiinsenerid ettepanekut süsteemist, uurides kasutaja nõuetekirja.</li>
+        <li>Arhitektuuri disain: Arhitektuuri valimisel on lähtepunktiks kõik, mida tavaliselt koosneb moodulite loendist, iga mooduli lühikirjeldusest, nende liideste suhetest, sõltuvustest, andmebaasi tabelitest, arhitektuuri diagrammidest, tehnoloogia detailidest jne. Integreerimise testimismudel viiakse läbi konkreetse faasi ajal.</li>
+        <li>Mooduli disain: Mooduli disainifaasis jaguneb süsteem väikesteks mooduliteks. Moodulite üksikasjalik disain on täpsustatud, mida tuntakse madala taseme kujundusena.</li>
+        <li>Koodimise faas: Pärast kujundamist alustatakse koodimisfaasi. Nõuete põhjal otsustatakse sobiv programmeerimiskeel. On mõned juhised ja standardid koodimiseks. Enne lõpliku ehitamise kontrollimist optimeeritakse viimane ehitus parema jõudluse saavutamiseks ning kood läbib palju koodiülevaatamisi jõudluse kontrollimiseks.</li>
+    </ul>
+    <p>V-mudeli Valideerimise faasi erinevad etapid:</p>
+    <ul>
+        <li>Üksiktestimine: V-mudelis arendatakse mooduli disainifaasis välja Üksiktestimise Plaanid (UTP-d). Neid UTP-sid viiakse läbi vea koodi tasemel või mooduli tasemel kõrvaldamiseks. Üksus on väikseim üksus, mis saab iseseisvalt eksisteerida, näiteks programmi moodul. Üksiktestimine kinnitab, et väikseim üksus suudab õigesti toimida, kui see on eraldatud ülejäänud koodidest/ühikutest.</li>
+        <li>Integreerimise testimine: Integreerimise testimise plaanid arendatakse arhitektuurilise kujunduse faasis. Need testid kinnitavad, et iseseisvalt loodud ja testitud rühmad saavad üksteisega koos eksisteerida ja suhelda.</li>
+        <li>Süsteemi testimine: Süsteemi testimise plaanid arendatakse Süsteemi Disaini faasis. Erinevalt Üksik- ja Integreerimise testimise plaanidest koosneb Süsteemi testimise plaanid äritegevuse meeskonna poolt. Süsteemi testimine tagab, et rakenduse arendajalt saadavad ootused on täidetud.</li>
+        <li>Vastuvõtutestimine: Vastuvõtutestimine on seotud äri nõuete analüüsiga. See hõlmab tarkvaratootes testimist kasutaja keskkonnas. Vastuvõtutestid paljastavad ühilduvusprobleeme erinevate süsteemidega, mis on saadaval kasutaja keskkonnas. Samuti avastab see mittetoimivad probleemid, nagu koormuse ja jõudluse puudused tegelikus kasutaja keskkonnas.</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waterfall Model</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #007bff;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Erinevad programmerimis stiilid</h1>
+    <h2>Behavior-driven development (BDD):</h2>
+    <ul>
+        <li>Rõhutab tarkvaraarenduse protsessis inimeste vahelist suhtlust, et määratleda soovitud käitumist tarkvaralt.</li>
+        <li>Testide kirjutamisel keskendutakse eelkõige soovitud käitumise esitamisele, mitte lihtsalt funktsioonide testimisele.</li>
+    </ul>
+    <img src = "images/BDD.png" width="800">
+    <h2>Design-driven development:</h2>
+    <ul>
+        <li>Keskmeks on tarkvara disain, mis juhib arendusprotsessi.</li>
+        <li>Arendus toimub disainielementide põhjal, mida peetakse esmatähtsaks, ning seejärel rakendatakse vastavalt.</li>
+    </ul>
+    <img src = "images/DDD.png" width="800">
+    <h2>Domain-driven design (DDD):</h2>
+    <ul>
+        <li>Rõhutab tarkvara disainimist, võttes arvesse valdkonna (domain) kontsepte ja loogikat.</li>
+        <li>Abstraktsete ja konkreetsete valdkonna mõistete süvitsi mõistmine ning nende korrektne rakendamine on oluline.</li>
+    </ul>
+    <img src = "images/domain-driven.png" width="800">
+    <h2>Secure by design:</h2>
+    <ul>
+        <li>Eesmärgiks on arendada tarkvara, mis on vaikimisi turvaline.</li>
+        <li>Turvakaalutlused on integreeritud kõigisse arendusetappidesse, alates kavandamisest kuni rakendamiseni.</li>
+    </ul>
+    <h2>Test-driven development (TDD):</h2>
+    <ul>
+        <li>Arendusprotsessi käigus kirjutatakse kõigepealt testid ja seejärel kood nende testide rahuldamiseks.</li>
+        <li>See aitab tagada tarkvara stabiilsust ja kvaliteeti, kuna uued funktsioonid lisatakse ainult siis, kui vastavad testid on edukalt läbitud.</li>
+    </ul>
+    <img src = "images/TDD.webp" width="800">
+    <h2>Acceptance test-driven development (ATDD):</h2>
+    <ul>
+        <li>Arendusprotsessi käigus kirjutatakse esmalt aktsepteerimistestid, mis määratlevad soovitud rakenduse funktsionaalsuse.</li>
+        <li>Seejärel arendatakse ja testitakse tarkvara vastavalt nendele aktsepteerimistestidele.</li>
+    </ul>
+    <img src = "images/atdd.jpg" width="800">
+    <h2>Continuous test-driven development (CTDD):</h2> 
+    <ul>
+        <li>See on kombinatsioon TDD-st ja pidevast integreerimisest (CI), kus testid kirjutatakse enne koodi ning seejärel integreeritakse ja testitakse pidevalt.</li>
+    </ul>
+    <img src = "images/CTDD.jpg" width="800">
+    <h2>Specification by example:</h2>
+    <ul>
+        <li>Arendusprotsessis kasutatakse reaalseid näiteid ja stseene, et selgelt määratleda tarkvara käitumist.</li>
+        <li>Nende näidete põhjal koostatakse spetsifikatsioon, mille alusel arendustööd tehakse.</li>
+    </ul>
+    <h2>Data-driven development:</h2>
+    <ul>
+        <li>Arendusprotsessis keskendutakse suuresti andmete analüüsile ja kasutamisele, et juhtida arendustööd.</li>
+        <li>Otsused funktsioonide ja struktuuri kohta põhinevad peamiselt andmeanalüüsil.</li>
+    </ul>
+    <img src = "images/DDS.png" width="800">
+    <h2>Data-oriented design:</h2> 
+    <ul>
+        <li>Sarnane DDD-ga, kuid rõhutab eriti andmeid ja nende töötlemist.</li>
+        <li>Andmestruktuuride kavandamine ja kasutamine on kesksel kohal, et tagada tõhus ja optimeeritud tarkvara toimimine.</li>
+    </ul>
+    <img src = "images/DOS.jpg" width="800">
+</body>
+</html>

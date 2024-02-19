@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incremental Development</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #007bff;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Incremental Development</h1>
+        <p>Inkrementaalne mudel on tarkvaraarenduse protsess, kus nõuded jaotatakse mitmeks eraldiseisvaks tarkvaraarenduse tsükli mooduliks. Selles mudelis läbib iga moodul nõuete, disaini, rakendamise ja testimise faasid. Iga järgnev mooduli väljalase lisab funktsioone eelmisele väljalaskele. Protsess jätkub kuni täieliku süsteemi saavutamiseni.</p>
+        <img src = "images/incremental.jpg">
+        <p>Inkrementaalse mudeli erinevad faasid on järgmised:</p>
+        <ul>
+            <li>Nõuete analüüs: Inkrementaalse mudeli esimeses faasis tuvastab tooteanalüüsi ekspertiis nõuded. Nõuete analüüsimeeskond mõistab süsteemi funktsionaalseid nõudeid. Selle faasi roll on oluline tarkvara arendamisel inkrementaalse mudeli alusel.</li>
+            <li>Disain ja arendamine: SDLC inkrementaalse mudeli selle faasis on süsteemi funktsionaalsuse disain ja arendusmeetod edukalt lõpetatud. Kui tarkvara arendab uut funktsionaalsust, kasutab inkrementaalne mudel disaini- ja arendusfaasi.</li>
+            <li>Testimine: Inkrementaalses mudelis kontrollib testimisfaas iga olemasoleva funktsiooni ja lisafunktsiooni jõudlust. Testimisfaasis kasutatakse erinevaid meetodeid iga ülesande käitumise testimiseks.</li>
+            <li>Rakendamine: Rakendamise faas võimaldab arendussüsteemi koodimisfaasi. See hõlmab lõplikku koodimist, mis on kavandatud disaini- ja arendusfaasis ning testib funktsionaalsust testimisfaasis. Pärast selle faasi lõpuleviimist suurendatakse toote töötavate numbrite arvu ning see täiendatakse ja uuendatakse lõpliku süsteemi tooteks.</li>
+        </ul>
+        <p>Inkrementaalse mudeli eelised:</p>
+        <ul>
+            <li>Vigade tuvastamine on lihtne.</li>
+            <li>Lihtsam testida ja veaotsingut teha.</li>
+            <li>Rohkem paindlikkust.</li>
+            <li>Riskide haldamine on lihtne, kuna need käsitletakse iteratsiooni käigus.</li>
+            <li>Klient saab olulise funktsionaalsuse varakult.</li>
+        </ul>
+        <p>Inkrementaalse mudeli puudused:</p>
+        <ul>
+            <li>Vajadus hea planeerimise järele.</li>
+            <li>Kokkuvõttes on kõrge kulu.</li>
+            <li>On vaja hästi määratletud moodulite liideseid.</li>
+        </ul>
+    </div>
+</body>
+</html>
